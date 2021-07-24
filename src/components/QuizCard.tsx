@@ -18,7 +18,7 @@ const QuizCard = ({ question, answers, handleClickAns, disabledAnswering, correc
 
     return (
         <div>
-            <p>{question}</p>
+            <h1 className="fw-normal fs-3 text-warning">{question}</h1>
             {answers?.map(ans =>
                 <div key={ans}>
                     <button
